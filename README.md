@@ -18,11 +18,6 @@
 - envrc
 
 ### 利用したライブラリ
-- echo
-- pongo2
-- sqlx
-- goose
-
 #### echo
 軽量なWebフレームワーク
 https://echo.labstack.com/
