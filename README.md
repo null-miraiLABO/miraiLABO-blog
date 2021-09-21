@@ -9,9 +9,9 @@
 記事の作成・編集・保存・消去を利用するにはBasic認証を通す必要があります。
 閲覧は問題ありません。
 
-Basic認証パス
-user
-pass
+#### Basic認証パス
+user: SteinsGate<br>
+pass: ElPsyCongroo<br>
 
 ### 一覧画面
 ### 記事表示画面
