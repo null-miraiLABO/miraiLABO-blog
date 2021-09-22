@@ -1,5 +1,11 @@
 # miraiLABO-blog
-技術ブログGo言語で制作
+技術ブログGo言語で制作<br>
+https://protected-shore-69482.herokuapp.com/
+
+#### Basic認証パス
+SteinsGate<br>
+ElPsyCongroo
+
 ## 機能
 - マークダウン記法
 - 新規作成・消去・編集機能
