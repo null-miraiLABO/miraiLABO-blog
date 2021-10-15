@@ -297,6 +297,10 @@ func connectDB() *sqlx.DB {
 	return db
 }
 ```
+`.envrc`ファイルからDSN情報を取得
+```diff
+$DSN=
+```
 ### Basic認証
 ```go
 func basicAuth() echo.MiddlewareFunc {
