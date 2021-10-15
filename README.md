@@ -208,3 +208,6 @@ func basicAuth() echo.MiddlewareFunc {
 	})
 }
 ```
+
+## Handler
+## render.go
