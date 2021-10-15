@@ -210,4 +210,11 @@ func basicAuth() echo.MiddlewareFunc {
 ```
 
 ## Handler
-## render.go
+### render.go
+pongo2によるhtmlの配信
+### article_handler.go
+DBから記事情報を取得,消去,アップデート
+
+## repository
+### article_repository.go
+DBの操作
