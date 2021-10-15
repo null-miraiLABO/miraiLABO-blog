@@ -299,7 +299,7 @@ func connectDB() *sqlx.DB {
 ```
 `.envrc`ファイルからDSN情報を取得
 ```diff
-$DSN=
+export DSN="workuser:Passw0rd!@tcp(127.0.0.1:3306)/techblog?parseTime=true&autocommit=0&sql_mode=%27TRADITIONAL,NO_AUTO_VALUE_ON_ZERO,ONLY_FULL_GROUP_BY%27"
 ```
 ### Basic認証
 ```go
