@@ -2,10 +2,6 @@
 技術ブログGo言語で制作<br>
 https://protected-shore-69482.herokuapp.com/
 
-#### Basic認証パス
-SteinsGate<br>
-ElPsyCongroo
-
 ## 機能
 - マークダウン記法
 - 新規作成・消去・編集機能
@@ -14,10 +10,6 @@ ElPsyCongroo
 ## 使い方
 記事の作成・編集・保存・消去を利用するにはBasic認証を通す必要があります。
 閲覧は必要ありません。
-
-#### Basic認証パス
-user: SteinsGate<br>
-pass: ElPsyCongroo<br>
 
 ### 一覧画面
 `新規`で空の記事編集画面、`ゴミ箱`で消去、`もっとみる`で表示を５項目づつ増やす
