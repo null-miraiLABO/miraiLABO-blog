@@ -1,22 +1,21 @@
-
 test:
-    driver: postgres
-    open: user=liam dbname=tester sslmode=disable
+  driver: postgres
+  open: user=liam dbname=tester sslmode=disable
 
 development:
-    driver: mymysql
-    open: tcp:localhost:3306*techblog/workuser/Passw0rd!
-    
+  driver: mymysql
+  open: tcp:localhost:3306*techblog/workuser/Passw0rd!
+
 production:
-    driver: postgres
-    open: user=liam dbname=tester sslmode=verify-full
+  driver: mymysql
+  open: $GOOSE_CONNECTION
 
 customimport:
-    driver: customdriver
-    open: customdriver open
-    import: github.com/custom/driver
-    dialect: mysql
+  driver: customdriver
+  open: customdriver open
+  import: github.com/custom/driver
+  dialect: mysql
 
 environment_variable_config:
-    driver: $DB_DRIVER
-    open: $DATABASE_URL
+  driver: $DB_DRIVER
+  open: $DATABASE_URL

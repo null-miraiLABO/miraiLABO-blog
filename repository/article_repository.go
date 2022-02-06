@@ -19,9 +19,9 @@ func ArticleListByCursor(cursor int) ([]*model.Article, error) {
 	FROM articles
 	WHERE id < ?
 	ORDER BY id desc
-	LIMIT 10`
+	LIMIT 5`
 
-	articles := make([]*model.Article, 0, 10)
+	articles := make([]*model.Article, 0, 5)
 
 	if err := db.Select(&articles, query, cursor); err != nil {
 		return nil, err

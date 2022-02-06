@@ -4,7 +4,7 @@
   grid-auto-rows: max-content;
   grid-template-columns: 1fr max-content;
   grid-column-gap: 16px;
-  grid-row-gap: 16px;
+  grid-row-gap: 40px;
   grid-template-areas:
     'title new'
     'list list'
@@ -26,11 +26,10 @@
 
 .page__more {
   grid-area: more;
-  background: #2e82e8;
-  color: #fff;
+  background: #cee3f0;
+  color: #001f3f;
   text-align: center;
-  border-radius: 10px;
-  padding: 8px 0;
+  padding: 10px 0;
   font-size: 20px;
   cursor: pointer;
 }
@@ -38,7 +37,7 @@
 .articles {
   display: grid;
   grid-auto-rows: 1fr;
-  grid-row-gap: 16px;
+  grid-row-gap: 45px;
 }
 
 .articles__item {
@@ -46,12 +45,14 @@
   grid-auto-rows: max-content;
   grid-template-columns: 1fr max-content;
   grid-column-gap: 16px;
-  grid-row-gap: 4px;
+  grid-row-gap: 20px;
   grid-template-areas:
     'title delete'
     'date delete';
-  background: #fff;
-  padding: 12px;
+  background: #cee3f0;
+  padding: 17px;
+  border-radius: 22px;
+  box-shadow: 9px 9px 18px #afc1cc, -9px -9px 18px #edffff;
 }
 
 .articles__item-title {
@@ -68,10 +69,11 @@
 .articles__item-delete {
   grid-area: delete;
   align-self: center;
-  background: #fe4d08;
-  color: #fff;
+  background: #fff;
+  color: #001f3f;
   height: 28px;
   width: 28px;
   font-size: 16px;
   border-radius: 4px;
+  border: 1px solid #001f3f;
 }
