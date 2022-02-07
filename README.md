@@ -1,6 +1,17 @@
 # miraiLABO-blog
 技術ブログGo言語で制作<br>
-https://protected-shore-69482.herokuapp.com/
+
+### テスト用
+https://nameless-caverns-57545.herokuapp.com/　<br>
+<img width="320" alt="testVerURL" src="https://user-images.githubusercontent.com/80031888/152810457-1bb9f301-ef3c-4f76-a61c-067e51555bb8.png"> <br>
+#### Basic認証パス
+ユーザー名: testuser
+パスワード: testpass
+
+### 本番用
+https://protected-shore-69482.herokuapp.com/　<br>
+<img width="320" alt="blogURL" src="https://user-images.githubusercontent.com/80031888/152811613-26444659-d056-47ea-92f8-ea5192bcfed3.png"> <br>
+
 
 ## 機能
 - マークダウン記法
